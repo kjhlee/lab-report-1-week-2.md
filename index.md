@@ -77,7 +77,12 @@ __Note: When you get to the paraphrase part DO NOT type anything just press ente
 If we try logging into the server now you should gain access without having to type a password
 
 ## Remote optimization
+Here are some helpful ways we can optimize how we code
 
+- Tip 1: Using quotations allow you to run log in and run a piece of code at the same time.
+<!-- img here> 
+- Tip 2: Using semi colons allows you to run multiple commands at the same time in order.
+<!-- img here> 
 
 
 
