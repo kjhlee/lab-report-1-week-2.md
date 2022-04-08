@@ -1,2 +1,2 @@
 ![Image](lab1.png)
-[Link](https://kjhlee.github.io/cse15l-lab-reports/)
+[Link to My First Lab Report](https://kjhlee.github.io/cse15l-lab-reports/)
