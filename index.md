@@ -1,10 +1,13 @@
 # How to *Remotely* log-in to your ieng6 account
 First make sure that you have done the prerequiste for the lab by changing your password
 
+
+## VS Code
 We will start by opening vs code and opening the terminal
 It should look a little something like this
 <!--- add picture of VSCODE terminal here-->
 
+## Remotely logging in
 Once completed we can log into our account
 
 Copy this code with your account name
@@ -21,6 +24,7 @@ Once you've logged in the computer should output a big wall of text and look lik
 
 <!-- Insert that image here-->
 
+## Running some commands
 Once inside we can try some commands
 Here are some of my recommendations
 - cd
@@ -31,6 +35,7 @@ Here are some of my recommendations
 After I run these commands this is what my terminal looks like, see if yours matches
 <!---  add image of this part ig-->
 
+## Moving files using SCP
 Now were going to learn how to copy and move files over using `scp`
 
 Create a file in VS Code called `WhereAmI.java`
@@ -49,6 +54,8 @@ Once you're logged in type `ls` and you should see your file in your account!
 
 <!--- add image of this --->
 
+
+## SSH keys
 Typing your password can get a little annoying :(
 
 Theres an awesome solution to this problem that is ssh keys
@@ -68,6 +75,9 @@ __Note: When you get to the paraphrase part DO NOT type anything just press ente
 <!--- add image here -->
 
 If we try logging into the server now you should gain access without having to type a password
+
+## Remote optimization
+
 
 
 
