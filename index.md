@@ -37,17 +37,40 @@ Create a file in VS Code called `WhereAmI.java`
 
 Once created just copy this code down
 
-class WhereAmI {
-  public static void main(String[] args) {
-    System.out.println(System.getProperty("os.name"));
-    System.out.println(System.getProperty("user.name"));
-    System.out.println(System.getProperty("user.home"));
-    System.out.println(System.getProperty("user.dir"));
-  }
-}
+<!-- add image of the code-->
+
+after running the code using the javac and java commands lets try to move this over to our account
+
+Type this command into the terminal
+
+scp WhereAmI.java cs15lsp22zz@ieng6.ucsd.edu:~/
+
+Once you're logged in type `ls` and you should see your file in your account!
+
+<!--- add image of this --->
+
+Typing your password can get a little annoying :(
+
+Theres an awesome solution to this problem that is ssh keys
+
+ssh keys in the grand scheme of things creates a private key and a public key that allows easier access into your server account
+
+Lets start by opening the terminal on your client computer
+
+Type this code in 
+
+ssh-keygen
+
+Your computer should load up something like this
+
+__Note: When you get to the paraphrase part DO NOT type anything just press enter__
+
+<!--- add image here -->
+
+If we try logging into the server now you should gain access without having to type a password
 
 
 
-Your code should look like this!
 
-<!--- implement picture of this-->
+
+
