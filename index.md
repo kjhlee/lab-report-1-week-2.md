@@ -8,7 +8,8 @@ It should look a little something like this
 Once completed we can log into our account
 
 Copy this code with your account name
-cs15lsp22<__YOUR__ username>@ieng6.ucsd.edu
+cs15lsp22abc@ieng6.ucsd.edu
+__Note: use your account, it most likely wont be abc__
 
 It should prompt you for a password 
 <!-- ask for password image-->
@@ -28,3 +29,25 @@ Here are some of my recommendations
 - cd ~
 
 After I run these commands this is what my terminal looks like, see if yours matches
+<!---  add image of this part ig-->
+
+Now were going to learn how to copy and move files over using `scp`
+
+Create a file in VS Code called `WhereAmI.java`
+
+Once created just copy this code down
+
+class WhereAmI {
+  public static void main(String[] args) {
+    System.out.println(System.getProperty("os.name"));
+    System.out.println(System.getProperty("user.name"));
+    System.out.println(System.getProperty("user.home"));
+    System.out.println(System.getProperty("user.dir"));
+  }
+}
+
+
+
+Your code should look like this!
+
+<!--- implement picture of this-->
